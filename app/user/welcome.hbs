@@ -1,0 +1,44 @@
+<div style='
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100%;
+'>
+<h3 style='color: #efefef; margin-top: 0;'>Login</h3>
+
+<form action="/login" method="post" style='
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+'>
+  <input style='padding: 6px;' name="username" id="username" type="text" placeholder="Your username" />
+  <input style='padding: 6px;' name="password" id="password" type="password" placeholder="Your password"/>
+  <input style='
+    background: #916ef7;
+    color: #efefef;
+    padding: 8px;
+    cursor: pointer;
+    border-radius: 4px;
+  ' type="submit" value="Login" />
+</form>
+
+<a style='
+  padding: 8px;
+  border: 1px solid #916ef7;
+  border-radius: 4px;
+  color: #fff;
+  margin-top: 20px;
+  text-decoration: none;
+' href="zebedee">Login with ZEBEDEE!</a>
+
+<a style='
+  padding: 8px;
+  border-radius: 4px;
+  font-size: 12px;
+  color: #fff;
+  margin-top: 4px;
+  text-decoration: none;
+' href="/admin">Go to Admin page</a>
+
+</div>

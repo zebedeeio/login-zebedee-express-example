@@ -1,0 +1,26 @@
+{
+  "name": "oauth-external-login-test",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "Níckolas Goline",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "body-parser": "1.15.1",
+    "connect-redis": "3.0.2",
+    "express": "4.13.4",
+    "express-handlebars": "3.0.0",
+    "express-session": "1.13.0",
+    "passport": "0.3.2",
+    "passport-local": "1.0.0",
+    "passport-zebedee": "git@github.com:vlimag/passport-oauth2.git",
+    "passport-zebedee-alpha": "^0.0.1-alpha",
+    "uuid": "^8.3.2"
+  }
+}

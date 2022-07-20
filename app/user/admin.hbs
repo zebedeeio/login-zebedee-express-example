@@ -1,0 +1,35 @@
+<div style='
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100%;
+'>
+<h3 style='color: #efefef; margin-top: 0;'>Admin Area</h3>
+
+<form action="/set-client" method="post"style='
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+'>
+  <input style='padding: 6px;' name="client_id" id="clientid" type="text" placeholder="Your Client ID" />
+  <input style='padding: 6px;' name="client_secret" id="clientsecret" type="text" placeholder="Your Client Secret"/>
+  <input style='padding: 6px;' name="redirect_url" id="redirect-url" type="text" placeholder="Set the redirect URL"/>
+  <input style='
+    background: #916ef7;
+    color: #efefef;
+    padding: 8px;
+    cursor: pointer;
+    border-radius: 4px;
+  ' type="submit" value="Save"/>
+</form>
+
+<a style='
+  padding: 8px;
+  border: 1px solid #efefef;
+  border-radius: 4px;
+  color: #fff;
+  margin-top: 20px;
+  text-decoration: none;
+' href="/">Back to Login!</a>
+</div>
