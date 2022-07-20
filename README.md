@@ -1,4 +1,4 @@
-# Login With ZEBEDEE - React Native Example App
+# Login With ZEBEDEE - Express Example App
 
 The [ZEBEDEE](https://zebedee.io) App is a Bitcoin/Lightning gaming wallet focused on user experience. It interfaces with the ZEBEDEE Internal APIs to make charges/requests/payments/withdrawals. The App is available for iOS and Android.
 
@@ -14,7 +14,7 @@ On order to try authenticating with ZEBEDEE, please go to the mentioned file, an
 
 ```
   clientID: '<your_client_id>',           // Replace <your_client_id> with your actual client id
-  clientSecret: '<your_client_secret>',   / Por testing purposes, the client secret is added here. On real case, it should be handled from back end for security reasons (refer to Docs)
+  clientSecret: '<your_client_secret>',   // Por testing purposes, the client secret is added here. On real case, it should be handled from back end for security reasons (refer to Docs)
   callbackURL: '<your_redirect_url',      // Set up your redirect Url
 ```
 
